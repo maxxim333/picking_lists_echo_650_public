@@ -35,3 +35,9 @@ Usage:
 
 4. The code is pretty much done. Now the last thing the script will ask you is the output directory. If you are using windows, remember to use double backslash (\\) instead of /.
 5. The script should generate two CSV files, one for dispensing instructions of controls and another for compounds.
+
+
+#picking_lists_v4.3.3.
+This is the "Full" version. Works with any type of dispensing logic and plate layouts
+1. Asks you for plate formats, of control, compound and destination plates.
+2. Asks you if you have a CSV input file.
