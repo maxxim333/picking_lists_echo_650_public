@@ -38,6 +38,20 @@ Usage:
 
 
 #picking_lists_v4.3.3.
-This is the "Full" version. Works with any type of dispensing logic and plate layouts
+This is the "Full" version. Works with any type of dispensing logic and plate layouts. 
 1. Asks you for plate formats, of control, compound and destination plates.
-2. Asks you if you have a CSV input file.
+2. Asks you if you have a CSV input file. Uses the "input4_dif_vol.csv" as input.
+3. If you want to introduce all the variables manually, click "No" when asked if there is a CSV input file
+4. Select wells where negative controls will go in the assay plates
+5. Select wells where control 1 and control 2 will go in assay plates (two separate prompt windows will appear for each control). You can also click ENTER without selecting anything.
+6. Same thing for the contol plate. Show the programs where each of the controls are located in the control plate
+7. Select the wells of the COMPOUND plate that contain compounds
+8. Write the dispensing pattern (rrr,ccc,ccr,rrc etc...)
+9. Write the volume per well OF THE NEGATIVE CONTROLS to be dispensed in nL 
+10. Write the volume per well OF THE CONTROL 1 to be dispensed in nL
+11. Write the volume per well OF THE CONTROL 2 to be dispensed in nL 
+12. Write the volume per well OF THE COMPOUNDS to be dispensed in nL 
+13. Write how many compound plates there are
+14. Write how many assay plates there are
+15. Write how many control plates there are
+16. Write output directory. If you are using windows, remember to use double backslash (\\) instead of /.
